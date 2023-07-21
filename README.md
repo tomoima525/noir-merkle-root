@@ -12,11 +12,11 @@ In your `Nargo.toml` file, add the following dependency:
 
 ```toml
 [dependencies]
-noir-merkle-root = { tag = "v0.1.0", git = "https://github.com/tomoima525/noir-merkle-root" }
+noir_merkleroot = { tag = "v0.1.0", git = "https://github.com/tomoima525/noir-merkle-root" }
 ```
 
 ```rust
-use dep::noir-merkle-root;
+use dep::noir_merkleroot;
 use dep::std;
 
 fn main(
