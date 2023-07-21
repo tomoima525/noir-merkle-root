@@ -12,7 +12,7 @@ In your `Nargo.toml` file, add the following dependency:
 
 ```toml
 [dependencies]
-noir_merkleroot = { tag = "v0.1.0", git = "https://github.com/tomoima525/noir-merkle-root" }
+noir_merkleroot = { tag = "v0.1.1", git = "https://github.com/tomoima525/noir-merkle-root" }
 ```
 
 ```rust
@@ -27,7 +27,7 @@ fn main(
 ) {
 
     // generate merkle root
-    let new_root = merkle_poseidon::compute_merkle_root(leaf, path_indices, siblings);
+    let new_root = noir_merkleroot::compute_merkle_root(leaf, path_indices, siblings);
     assert(new_root == root);
 }
 ```
