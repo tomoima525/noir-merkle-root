@@ -16,7 +16,7 @@ noir_merkleroot = { tag = "v0.1.1", git = "https://github.com/tomoima525/noir-me
 ```
 
 ```rust
-use dep::noir-merkle-root;
+use dep::noir_merkleroot;
 use dep::std;
 
 fn main(

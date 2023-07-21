@@ -1,5 +1,5 @@
 [package]
-name="noir-merkle-root"
+name="noir_merkleroot"
 authors = ["tomo<tomoima525@gmail.com>"]
 compiler_version = "0.7.1"
 license = "MIT"
